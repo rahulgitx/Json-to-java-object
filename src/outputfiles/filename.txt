@@ -1,0 +1,12 @@
+
+	Private Integer EmpId;
+	Private Integer Name;
+	Private Integer EmpId;
+	Private String Name;
+	Private Integer EmpId;
+	Private String Name;
+	Private float salary;
+	Private String Code;
+	Private String JustPeriod;
+	Private String periods;
+	Private float Appraisal percentage;

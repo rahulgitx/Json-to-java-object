@@ -1,0 +1,7 @@
+"EmpId":"123"
+"Name":"string"
+"salary":"23.4"
+"Code":"sd344.34"
+"JustPeriod":"."
+"periods":"..."
+"Appraisal percentage":".0"

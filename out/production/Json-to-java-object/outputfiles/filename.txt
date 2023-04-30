@@ -1,0 +1,5 @@
+
+	Private Integer EmpId;
+	Private Integer Name;
+	Private Integer EmpId;
+	Private String Name;
