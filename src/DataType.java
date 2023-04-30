@@ -1,6 +1,7 @@
 public class DataType {
     public String dataType(String str){
-        boolean dig = false, alphabets = false, period = false;
+        boolean dig = false, alphabets = false;
+        Integer period = 0;
         for(int i=0; i<str.length(); i++){
             char c = str.charAt(i);
             if(c-'A' < 26 && c-'A' >= 0){
@@ -13,16 +14,12 @@ public class DataType {
                 dig = true;
             }
             if(c == '.'){
-                period = true;
+                period++;
             }
         }
-        if(alphabets || (period && !dig)){
-            return "String";
-        }
-        if(period && dig){
-            return "float";
-        }
-        return "Integer";
+        if(dig && period == 0) return "Integer";
+        if(!alphabets && (dig && period == 1) ) return "float";
+        return "String";
 
     }
 }
